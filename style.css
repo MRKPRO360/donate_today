@@ -152,15 +152,16 @@ img {
 }
 
 .card--1 {
-    background-color: rgba(224,18,52,.35);
+    background-color:rgba(171, 171, 171, .35);;
 }
 
 .card--2 {
-    background-color: rgba(218, 33, 64, 0.4);
+    background-color: rgba(171, 171, 171, .45);
+        
 }
 
 .card--3 {
-    background-color: rgba(227, 28, 61, 0.5);
+    background-color: rgba(171, 171, 171, .55);
 }
 
 /* Help */
@@ -179,6 +180,46 @@ img {
     border-radius: 10px;
 }
 
+/* Team */
+
+.volunteer__flex-width {
+    padding: 8rem 16rem;
+    gap: 2rem;
+}
+
+.volunteer__flex-width > * {
+    flex: 1 1 33.3%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.volunteer__card {
+    position: relative;
+}
+
+.volunteer__img {
+    height: 35rem;
+    border-radius: 4px;
+}
+
+.volunteer__info {
+    width: 80%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+
+.volunteer__info-heading {
+    margin: .8rem 0;
+}
+
+.volunteer__position {
+    margin: 0;
+}
+
+
 /* Newsletter */
 
 .newsletter {
@@ -194,9 +235,8 @@ img {
 }
 
 .newsletter__form {
-    background-color: rgba(218, 33, 64, 0.3);
+    background-color: rgba(209 ,208 ,208,30%);;
     padding: 6rem;
-
     position: relative;
 }
 
