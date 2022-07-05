@@ -120,3 +120,40 @@ html {
     border: .7px solid rgb(245, 245, 245);
     margin-bottom: 5rem;
 }
+
+/* Donate-plan */
+
+.donate-plan {
+    
+}
+
+.donate-plan__text-container {
+    padding: 0 !important;
+}
+
+.donate-plan__cards {
+    gap: 2rem;
+    padding: 8rem 16rem;
+}
+
+.card {
+    padding: 3rem 2rem 3rem 1rem;
+    border-radius: 4px;
+}
+
+.card__img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.card--1 {
+    background-color: rgba(114, 114, 226, 0.25);
+}
+
+.card--2 {
+    background-color: rgba(114, 114, 226, 0.45);
+}
+
+.card--3 {
+    background-color: rgba(114, 114, 226, 0.55);
+}
